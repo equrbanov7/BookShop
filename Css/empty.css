@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Verdana&display=swap');
+* {
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*   Header Start         */
+
+header {
+    background-color: #fff;
+    margin-bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+
+}
+
+header .store {
+    color: #109e97;
+    font-family: 'Lobster';
+  
+    font-size: 49px;
+}
+
+
+/*   Header End         */
+
+
+/* NAVBAR  Start*/
+.burger-card{
+    display: none;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #109e97;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    transition: 0.8s ease-in-out;
+    
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 3.5rem;
+   
+
+}
+
+.menu ul>a {
+    text-decoration: none;
+    color: #fff;
+    border-left: 1px solid #fff;
+    /* border-right: 1px solid #fff; */
+    transition: .3s ease;
+    padding: 0 2rem;
+}
+
+.menu ul a:nth-child(4){
+    background-color: #0E524E;
+    cursor: default;
+}
+
+.menu ul a:last-child{
+    border-right: 1px solid #fff;
+}
+
+.menu ul a:hover:not(#mischange){
+    color: #109E97;
+    background-color: #fff;
+}
+.menu ul a:active:not(#mischange){
+    background-color: #0E524E;
+    color: #fff;
+    }
+
+    .menu ul li {
+        transition: background-color 0.3s ease;
+      }
+      
+      .menu ul li:hover {
+        background-color: #ccc;
+      }
+      
+
+/*   Navbar END              */
+
+
+
+/*      Section About Start                */
+
+.about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.about .topsinfo {
+    display: flex;
+
+    width: 80%;
+    height: 500px;
+}
+
+.about .topsinfo .BookingImg {
+    display: flex;
+    align-items: flex-end;
+}
+
+.about .topsinfo .BookingImg .BookImage {
+    /* width: 300px;
+    height: 450px; */
+    width: 300px;
+    height: 450px;
+}
+
+.about .topsinfo .Allcontent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    text-align: right;
+    align-items: flex-end;
+
+}
+
+.about .topsinfo .Allcontent .writerall {
+    display: flex;
+    flex-direction: column;
+}
+
+.about .topsinfo .Allcontent .writerall .writer {
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+    position: relative;
+    margin-top: 1.5rem;
+    
+}
+
+.about .topsinfo .Allcontent .writerall .CurrentPrice {
+    font-family: 'Verdana';
+    font-size: 25px;
+    line-height: 29px;
+    color: #008000;
+}
+
+.about .topsinfo .Allcontent .writerall .FirstPrice {
+    font-family: 'Verdana';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FF0000;
+    text-decoration: line-through;
+
+}
+.about .topsinfo .Allcontent .Shortcontentall{
+    margin-top: 4rem;
+}
+
+
+.about .topsinfo .Allcontent .Shortcontentall .ShortContent {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 20px;
+    
+    
+}
+
+.about .topsinfo .Allcontent .Shortcontentall .AboutBook {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    /* word-spacing: 2px; */
+    overflow-y: scroll;
+    direction: rtl;
+    height: 170px;
+   
+}
+
+.about .topsinfo .Allcontent .AddBox {
+    background-color: #109E97;
+    color: #fff;
+    width: 149px;
+    height: 48px;
+    position: relative;
+    top: 1rem;
+    cursor: pointer;
+    
+
+}
+
+.about .meaninglesicon {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 15rem;
+    right: 1.5rem;
+    z-index: 1000;
+}
+
+
+.about .meaninglesicon .SocialMediaTags {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.about .meaninglesicon .SocialMediaTags a {
+    font-size: 24px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #109E97;
+   
+   
+}
+
+.about .meaninglesicon .SocialMediaTags .unique{
+    margin-top: 1rem;
+    color: #808080;
+} 
+
+
+
+/*      Section About End                */
+
+
+
+/*      Section Properties Start                */
+
+.properties {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.properties h3 {
+    text-transform: uppercase;
+}
+
+.properties .property {
+    width: 70%;
+    line-height: 2rem;
+    border-collapse: collapse;
+
+}
+
+.property tr {
+    border-bottom: 1px solid #808080;
+}
+
+/*      Section Properties End                */
+
+
+/*      Section Review Start                */
+.review .totalReviewImg{
+    opacity: 0.3;
+}
+.review .totalReviewImg:hover{
+    opacity: 1;
+}
+
+.review h3 {
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+.totalReviewImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.imgleft,
+.centerform,
+.imgright {
+    display: flex;
+
+}
+
+.centerform {
+    flex-direction: column;
+}
+
+.centerform form {
+    text-align: center;
+}
+.centerform form input:focus{
+    background-color: yellow;
+}
+
+.totalReviewImg .imgleft,
+.imgright {
+    width: 200px;
+    height: 302px;
+    background-image: url(/images/Inkognito.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+}
+
+
+
+.centerform form #language {
+    background: #DDDDDD;
+    border: 1px solid #767676
+}
+
+.centerform form input {
+    background: #FFFFFF;
+    border: 2px solid #767676;
+}
+
+.centerform form #SpeacialReview {
+    background: #FFFFFF;
+    border: 1px solid #767676;
+}
+
+.centerform form button {
+    background: #109E97;
+    border: 2px solid #767676;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.centerform form #booleantest:checked{
+    width: 20px;
+    height: 20px;
+}
+
+.review .bottomicon {
+    display: none;
+}
+
+
+/*      Section Review End                */
+
+
+
+/*      Section Social Media End                */
+
+
+/*     Footer     Start        */
+footer {
+    background: #109E97;
+    border-radius: 0px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*     Footer End              */
+
+
+/*     994>             */
+
+@media screen and (max-width: 994px){
+    .totalReviewImg .imgleft,.imgright{
+        display: none;
+    }
+    .totalReviewImg .imgright{
+        display: none;
+    }
+}
+  

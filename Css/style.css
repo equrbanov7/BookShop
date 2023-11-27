@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Verdana&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+
+header .store {
+    font-family: 'Lobster';
+    color: #109E97;
+    text-align: center;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 61.25px;
+    
+
+}
+
+.about .CurrentPrice {
+    font-family: 'Verdana';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    font-style: normal;
+    color: #008000;
+}
+
+.about .FirstPrice {
+    font-family: 'Verdana';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+    color: #FF0000;
+    text-decoration: line-through;
+
+}
+
+.about .writer {
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.about .BookImage {
+    width: 200px;
+    height: 302px;
+
+}
+
+.about .AllAbout {
+    background-color: #000000;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.about .ShortContent {
+    color: #fff;
+
+   
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    text-transform: uppercase
+}
+
+.about .AboutBook {
+
+    color: #ffffff;
+   
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-left: 2rem;
+
+}
+
+.properties h3 {
+    text-transform: uppercase;
+}
+
+.properties .property,
+th,
+td {
+    border: 1px solid #808080;
+
+}
+
+.properties .property {
+    width: 100%;
+    line-height: 2rem;
+}
+
+.review h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.totalReviewImg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgleft,
+.centerform,
+.imgright {
+    display: flex;
+
+}
+
+.centerform {
+    flex-direction: column;
+}
+.centerform form{
+    text-align: center;
+}
+
+.totalReviewImg .imgleft,
+.imgright {
+    width: 200px;
+    height: 302px;
+    background-image: url(/images/Inkognito.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+}
+
+
+
+.centerform form #language {
+    background: #DDDDDD;
+    border: 1px solid #767676
+}
+
+.centerform form input {
+    background: #FFFFFF;
+    border: 2px solid #767676;
+}
+
+.centerform form #SpeacialReview {
+    background: #FFFFFF;
+    border: 1px solid #767676;
+}
+
+.centerform form button {
+    background: #109E97;
+    border: 2px solid #767676;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.SocialMedias .SocialMediaTags {
+    list-style-type: none;
+}
+
+.SocialMedias .SocialMediaTags a {
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #0000EE;
+}
+
+footer {
+    background: #109E97;
+    border-radius: 0px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}

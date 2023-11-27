@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Verdana&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*   Header Start         */
+
+header {
+    background-color: #109E97;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid black;
+}
+
+header .store {
+    font-family: 'Lobster';
+    color: #fff;
+    font-size: 49px;
+}
+
+/*   Header End         */
+
+
+/*      Section About Start                */
+
+.about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.about .topsinfo {
+    display: flex;
+
+    width: 80%;
+}
+
+.about .topsinfo .BookingImg {
+    display: flex;
+    align-items: flex-end;
+}
+
+.about .topsinfo .BookingImg .BookImage {
+    width: 300px;
+    height: 450px;
+}
+
+.about .topsinfo .Allcontent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+
+}
+
+.about .topsinfo .Allcontent .writerAll {
+    display: flex;
+    flex-direction: column;
+}
+
+.about .topsinfo .Allcontent .writerAll .writer {
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+    position: relative;
+    margin-top: 0;
+}
+
+.about .topsinfo .Allcontent .writerall .CurrentPrice {
+    font-family: 'Verdana';
+    font-size: 25px;
+    line-height: 29px;
+    color: #008000;
+}
+
+.about .topsinfo .Allcontent .writerall .FirstPrice {
+    font-family: 'Verdana';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FF0000;
+    text-decoration: line-through;
+
+}
+
+.about .topsinfo .Allcontent .Shortcontentall .ShortContent {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.about .topsinfo .Allcontent .Shortcontentall .AboutBook {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    /* word-spacing: 2px; */
+}
+
+.about .topsinfo .Allcontent .Shortcontentall .AddBox {
+    background-color: #109E97;
+    color: #fff;
+    width: 149px;
+    height: 48px;
+
+}
+
+.about .meaninglesicon {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10rem;
+    right: 1.5rem;
+}
+
+.meaninglesicon .SocialMediaTags {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.meaninglesicon .SocialMediaTags a {
+    font-size: 24px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #109E97;
+   
+}
+
+
+/*      Section About End                */
+
+
+
+/*      Section Properties Start                */
+
+.properties {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.properties h3 {
+    text-transform: uppercase;
+}
+
+.properties .property {
+    width: 70%;
+    line-height: 2rem;
+    border-collapse: collapse;
+
+}
+
+.property tr {
+    border-bottom: 1px solid #808080;
+}
+
+/*      Section Properties End                */
+
+
+/*      Section Review Start                */
+
+
+.review h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.totalReviewImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.imgleft,
+.centerform,
+.imgright {
+    display: flex;
+
+}
+
+.centerform {
+    flex-direction: column;
+}
+
+.centerform form {
+    text-align: center;
+}
+
+.totalReviewImg .imgleft,
+.imgright {
+    width: 200px;
+    height: 302px;
+    background-image: url(/images/Inkognito.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+}
+
+
+
+.centerform form #language {
+    background: #DDDDDD;
+    border: 1px solid #767676
+}
+
+.centerform form input {
+    background: #FFFFFF;
+    border: 2px solid #767676;
+}
+
+.centerform form #SpeacialReview {
+    background: #FFFFFF;
+    border: 1px solid #767676;
+}
+
+.centerform form button {
+    background: #109E97;
+    border: 2px solid #767676;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+
+
+
+/*      Section Review End                */
+
+
+
+/*      Section Social Media End                */
+
+
+/*     Footer     Start        */
+footer {
+    background: #109E97;
+    border-radius: 0px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*     Footer End              */

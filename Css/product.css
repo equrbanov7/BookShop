@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Verdana&display=swap');
+* {
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*   Header Start         */
+
+header {
+    background-color: #fff;
+    margin-bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+
+}
+
+header .store {
+    color: #109e97;
+    font-family: 'Lobster';
+  
+    font-size: 49px;
+}
+
+
+/*   Header End         */
+
+
+/* NAVBAR  Start*/
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #109e97;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 4rem; */
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 3.5rem;
+
+
+}
+
+.menu ul>a {
+    text-decoration: none;
+    color: #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding: 0 2rem;
+}
+
+
+
+/*   Navbar END              */
+
+
+/*   Section Discoverbooks Start            */
+.DiscoverBooks {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(/images/paper_bg\ copy.jpg);
+}
+
+.DiscoverBooks .allcontent {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.DiscoverBooks .allcontent .contentbook>p {
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.DiscoverBooks .allcontent .imgbooks {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2rem;
+}
+
+.DiscoverBooks .allcontent .imgbooks img {
+    width: 300px;
+    height: 391px;
+}
+
+.DiscoverBooks .allcontent .contentbook .discoverbut {
+    background-color: #109E97;
+    color: #fff;
+    width: 149px;
+    height: 48px;
+}
+
+.DiscoverBooks .meaninglesicon {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 15rem;
+    right: 1.5rem;
+    z-index: 1000;
+}
+
+.DiscoverBooks .meaninglesicon .SocialMediaTags {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.DiscoverBooks .meaninglesicon .SocialMediaTags a {
+    font-size: 24px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #109E97;
+   
+   
+}
+
+.DiscoverBooks .meaninglesicon .SocialMediaTags .unique{
+    margin-top: 1rem;
+    color: #808080;
+} 
+
+
+
+/*   Section Discoverbooks End                    */
+
+
+/*   Section Books End                    */
+
+.books{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.books .allbooks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 75%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #916a6a;
+}
+.books .allbooks .bookimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border: 1px solid #109E97;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+
+}
+.books .allbooks .bookimg >h4{
+    margin: 0.5rem;
+}
+
+.books .allbooks .bookimg >img{
+    width: 150px;
+    height: 227px;
+}
+
+
+
+/*   Section Books End                    */
+
+/*     Footer     Start        */
+footer {
+    background: #109E97;
+    border-radius: 0px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*     Footer End              */

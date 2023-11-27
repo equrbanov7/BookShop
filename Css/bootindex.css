@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Verdana&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-nav .nav-link {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link.active {
+    opacity: 1;
+  }
+  .booktop .books >div{
+    margin-bottom: 50px;
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+  .imagecatch{
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    justify-content: center;
+  }
+  .imagecatch .card{
+    --bs-card-bg:none;
+    color: #fff;
+  }
+  footer{
+    background-color: #17A2B8;
+    display: flex;
+    justify-content: center;
+   
+    color: #fff;
+    height: 72px;
+  }
+  footer p{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
